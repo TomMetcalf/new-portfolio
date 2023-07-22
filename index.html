@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/css/fontawesome.css" />
     <link rel="stylesheet" href="/css/bootstrap.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Tom Met Dev - Portfolio</title>
+    <title>Tom Met Dev | Home</title>
   </head>
   <body>
     <!-- Navbar -->
@@ -29,7 +29,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a href="#home" class="nav-link" aria-current="page">Home</a>
+              <a href="/" class="nav-link" aria-current="page">Home</a>
             </li>
             <li class="nav-item">
               <a href="#about" class="nav-link" aria-current="page">About</a>
@@ -40,13 +40,13 @@
               >
             </li>
             <li class="nav-item">
-              <a href="#contact" class="nav-link" aria-current="page"
+              <a href="contact.html" class="nav-link" aria-current="page"
                 >Contact</a
               >
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a href="#blog" class="nav-link" aria-current="page">Blog</a>
-            </li>
+            </li> -->
           </ul>
           <span class="nav-item">
             <span class="fa-stack">
@@ -245,7 +245,7 @@
       </div>
     </section>
 
-    <section class="project-one" id="projects">
+    <section class="project-one mb-5" id="projects">
       <div class="container">
         <div class="row mt-5">
           <div class="col-md-6">
@@ -266,9 +266,11 @@
               alerted when trying to submit a workout with missing fields.
               Workouts are stored in a MongoDB database and a loading animation
               is shown whilst the data is retrieved from the database.
-              <br>
-              <br>
-              Users can sign up and log in and only their own workouts will be displayed. A calendar can also be used to display workouts for a particular date.
+              <br />
+              <br />
+              Users can sign up and log in and only their own workouts will be
+              displayed. A calendar can also be used to display workouts for a
+              particular date.
             </p>
             <div class="row mt-4">
               <a
@@ -292,6 +294,60 @@
         </div>
       </div>
     </section>
+
+    <!-- Social -->
+    <section class="social text-bg-dark py-6 overflow hidden">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 offset-md-3 text-center fs-4">
+            <p>
+              Feel free to connect with me, or view more of my work via the
+              following social channels...
+            </p>
+            <div class="social-icons d-flex justify-content-center gap-4">
+              <a href="https://github.com/TomMetcalf" target="_blank">
+                <i class="fab fa-github fa-2x text-white"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/tom-metcalf" target="_blank">
+                <i class="fab fa-linkedin fa-2x text-white"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-top border-primary bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="/" class="nav-link link-light">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link link-light">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link link-light">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link link-light">Contact</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a href="blog.html" class="nav-link link-light">Blog</a>
+              </li> -->
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <p class="text-end d-none d-md-block">
+              Copyright &copy; Tom Met Dev 2023
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>

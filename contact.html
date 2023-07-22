@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/fontawesome.css" />
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Tom Met Dev | Contact</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md fixed-top bg-white">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <h1>Tom Met Dev</h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="/" class="nav-link" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link" aria-current="page">About</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="index.html#projects"
+                class="nav-link"
+                aria-current="page"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="/contact.html" class="nav-link" aria-current="page"
+                >Contact</a
+              >
+            </li>
+            <!-- <li class="nav-item">
+              <a href="#blog" class="nav-link" aria-current="page">Blog</a>
+            </li> -->
+          </ul>
+          <span class="nav-item">
+            <span class="fa-stack">
+              <a href="https://github.com/TomMetcalf" target="_blank">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x text-white"></i>
+              </a>
+            </span>
+            <span class="fa-stack">
+              <a
+                href="https://www.linkedin.com/in/tom-metcalf/"
+                target="_blank"
+              >
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin fa-stack-1x text-white"></i>
+              </a>
+            </span>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Contact Form -->
+    <section class="contact mt-7 pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 offset-lg-3">
+            <h2>Contact</h2>
+            <p>
+              If you'd like to get in contact with me, please fill in the
+              contact form below and click send message.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-6 offset-lg-3">
+            <form action="https://formspree.io/f/mjvqkrow" method="POST">
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control form-control-lg"
+                  placeholder="Name"
+                  name="name"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control form-control-lg"
+                  placeholder="Email"
+                  name="email"
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  name="message"
+                  rows="6"
+                  class="form-control form-control-lg"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <div class="d-grid">
+                <button class="btn btn-primary text-white mt-3" type="submit">
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social -->
+    <section class="social text-bg-dark py-6 overflow hidden">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 offset-md-3 text-center fs-4">
+            <p>
+              Feel free to connect with me, or view more of my work via the
+              following social channels...
+            </p>
+            <div class="social-icons d-flex justify-content-center gap-4">
+              <a href="https://github.com/TomMetcalf" target="_blank">
+                <i class="fab fa-github fa-2x text-white"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/tom-metcalf" target="_blank">
+                <i class="fab fa-linkedin fa-2x text-white"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-top border-primary bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="/" class="nav-link link-light">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link link-light">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="index.html#projects" class="nav-link link-light"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link link-light">Contact</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a href="blog.html" class="nav-link link-light">Blog</a>
+              </li> -->
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <p class="text-end d-none d-md-block">
+              Copyright &copy; Tom Met Dev 2023
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
