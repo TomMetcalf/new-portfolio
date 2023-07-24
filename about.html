@@ -76,7 +76,7 @@
         <div class="row mt-6 mb-3">
           <div class="col-lg-8 offset-lg-2">
             <h2 class="display-4 fw-medium">Hi, I'm Tom Metcalf</h2>
-            <h3 class="display-6">I'm a Junior Full-Stack Javascript Developer</h3>
+            <h3 class="display-6" id="typing-text"></h3>
             <p class="lead">
               A business degree graduate and avid lifelong learner, I have a
               varied and flexible skill set developed throughout my life, which
@@ -173,5 +173,11 @@
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const textForAboutPage = "I'm a Junior Full-Stack Javascript Developer";
+    runTypingEffect(textForAboutPage);
+  });
+</script>
   </body>
 </html>
