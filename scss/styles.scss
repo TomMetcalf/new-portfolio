@@ -1,9 +1,33 @@
-.profile-photo{
+.profile-photo, .project-image {
     transition: all 0.3s ease-in-out;
 }
 
-.profile-photo:hover {
+.profile-photo:hover, .project-image:hover {
     transform: scale(0.98);
+    cursor: default;
+}
+
+.emoji, .emoji-surf {
+    transition: transform .5s ease-in-out;
+}
+
+.emoji:hover {
+    transform: scale(1.2);
+    cursor: default;
+}
+
+.emoji-surf:hover {
+    transform: scale(1.2) rotate(-20deg);
+    cursor: default;
+}
+
+.icon, .tech {
+    transition: transform .3s ease-in-out;
+    cursor: default;
+}
+
+.icon:hover, .tech:hover {
+    transform: scale(0.9);
 }
 
 
