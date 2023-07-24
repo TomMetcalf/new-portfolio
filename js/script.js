@@ -1,7 +1,7 @@
 function runTypingEffect() {
-  const text = 'I love learning, creating and developing new skills.';
+  const text = "I'm a Full Stack JavaScript Developer and I love learning, creating and developing new skills.";
   const typingElement = document.getElementById('typing-text');
-  const typingDelay = 75;
+  const typingDelay = 70;
 
   typeText(text, typingElement, typingDelay);
 }
